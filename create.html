@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+
+
+    <!-- materialize -->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="./main.css">
+
+    <title>Pick your poison</title>
+</head>
+<body>
+
+        <nav>
+                <div class="nav-wrapper">
+                  <a href="./index.html" class="brand-logo">Pick your Poison</a>
+                  <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="./create.html">Share your Poison</a></li>
+                  </ul>
+                </div>
+              </nav>
+
+
+    <section class="create-recipe">
+              <div class="row">
+                  <form class="col s12">
+                    <div class="row">
+                      <div class="input-field col s12">
+                        <input id="img_url" type="text" class="img_url">
+                        <label for="img">Add the link to your drink</label>
+                      </div>
+                      <div class="input-field col s12">
+                          <input id="drink_name" type="text" class="drink_name">
+                          <label for="drink_name">Name your Drink</label>
+                        </div>
+                      <div class="input-field col s12">
+                          <input id="description" type="text" class="description">
+                          <label for="description">What's it like?</label>
+                      </div>
+                      <div class="input-field col s12">
+                          <input id="ingredients" type="text" class="ingredients">
+                          <label for="ingredients">What do you need?</label>
+                      </div>
+                      <div class="input-field col s12">
+                          <input id="instructions" type="text" class="instructions">
+                          <label for="instructions">How do you make it?</label>
+                      
+                      </div>
+
+                      <div class="input-field col s12">
+                          <select>
+                            <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Drop Me!</a>
+
+                            <option value="" disabled selected>What type of Liquor</option>
+                            <option value="1">Whiskey</option>
+                            <option value="2">Vodka</option>
+                            <option value="3">Rum</option>
+                            <option value="1">Gin</option>
+                            <option value="2">Tequila</option>
+                            <option value="3">Brandy</option>
+                          </select>
+                          <label>Materialize Select</label>
+                        </div>
+
+                    </div>
+                  </form>
+                </div>
+     </section>
+    
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="./main.js"></script>
+</html>
